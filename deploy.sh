@@ -7,9 +7,7 @@ type=$0
 message=$1
 date=`date`
 
-echo $type
-echo $message
-echo $date
+echo -e "${type} - ${message}, ${date}"
 
 # Build the project.
 hugo -t bh
