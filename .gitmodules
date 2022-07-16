@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/Jeongmin94/jeongmin94.github.io.git
 	branch = main
+[submodule "themes/bh"]
+	path = themes/bh
+	url = https://github.com/Jeongmin94/beautifulhugo.git
