@@ -13,6 +13,7 @@ if [ $# -eq 1 ]
 fi
 
 echo -e $commitMsg
+echo $#
 
 # Build the project.
 hugo -t bh
