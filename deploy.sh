@@ -3,8 +3,8 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Params
-type=$0
-message=$1
+type=$1
+message=$2
 date=`date`
 
 echo -e "${type} - ${message}, ${date}"
