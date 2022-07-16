@@ -2,6 +2,15 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Params
+type=$0
+message=$1
+date=`date`
+
+echo $type
+echo $message
+echo $date
+
 # Build the project.
 hugo -t bh
 
