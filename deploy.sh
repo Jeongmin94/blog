@@ -8,7 +8,7 @@ message=$2
 date=`date`
 
 commitMsg="${type} ${message}, ${date}"
-if [ $# -eq 1 ]
+if [ $# -eq 0 ]
     then commitMsg="update blog at ${date}"
 fi
 
