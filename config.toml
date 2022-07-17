@@ -1,5 +1,5 @@
 baseurl = "https://jeongmin94.github.io"
-DefaultContentLanguage = "eko"
+DefaultContentLanguage = "ko"
 #DefaultContentLanguage = "ja"
 title = "저장소"
 theme = "bh"
