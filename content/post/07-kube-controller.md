@@ -9,7 +9,6 @@ categories:
 ---
 
 
-
 # 쿠버네티스 컨트롤러
 
 > https://kubernetes.io/docs/concepts/architecture/controller
