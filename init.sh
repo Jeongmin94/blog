@@ -1,3 +1,7 @@
-  1 #!/bin/bash
-  2
-  3 echo -e "\033[0;32mRemote workspace init...\033[0m"
+#!/bin/bash
+
+echo -e "\033[0;32mInitializing remote workspcae...\033[0m"
+
+# setting submodule
+git submodule init
+git submodule update
