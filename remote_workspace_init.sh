@@ -11,10 +11,12 @@ git submodule update
 
 echo "update - blog/public"
 cd public
+git fetch origin
 git pull origin main
 
 # move blog
 
 echo "update - blog"
 cd ../
+git fetch origin
 git pull origin master
