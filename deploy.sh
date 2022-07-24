@@ -21,6 +21,7 @@ hugo -t bh
 ### Public
 cd public
 
+echo "push to Public"
 git add .
 git commit -m "$commitMsg"
 
@@ -28,6 +29,7 @@ git push origin main
 
 
 ### Root
+echo "push to Blog"
 cd ..
 
 git add .
