@@ -1,7 +1,7 @@
 ---
 title: "08 Helm"
 date: 2022-07-24T09:05:48+09:00
-draft: true
+draft: false
 tags:
 - helm
 categories:
