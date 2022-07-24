@@ -1,5 +1,5 @@
 ---
-title: "Reactive Streams"
+title: "리액티브 스트림즈"
 date: 2022-07-21T09:55:17+09:00
 draft: false
 tags:
@@ -8,7 +8,9 @@ categories:
 - WebFlux
 ---
 
+WebFlux의 뼈대가 되는 리액티브 스트림즈에 대해 살펴본다.
 
+<!--more-->
 
 # Reactive Streams
 

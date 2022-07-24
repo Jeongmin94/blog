@@ -50,6 +50,10 @@ pygmentsCodefencesGuessSyntax = true
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
+[languages]
+  [languages.ko] 
+    contentDir = "content/ko" # Korean
+
 [Author]
   name = "jeongmin94"
   # website = "yourwebsite.com"
