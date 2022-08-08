@@ -1,5 +1,5 @@
 ---
-title: "10_storage"
+title: "10 Storage"
 date: 2022-08-06T16:10:25+09:00
 draft: false
 tags:
