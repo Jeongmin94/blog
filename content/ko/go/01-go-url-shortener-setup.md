@@ -10,7 +10,7 @@ categories:
 Go로 URL 단축기 만들어 본다.
 <!--more-->
 
-# Go로 URL 단축기 만들기
+# Go로 URL 단축기 만들기 - 1
 
 > https://www.eddywm.com/lets-build-a-url-shortener-in-go/
 
@@ -184,5 +184,5 @@ func main() {
 
 `go run main.go`를 입력해서 서버를 실행하고 브라우저에서 `localhost:9808`을 입력하면 `"message": "Hey Go URL Shortener !"`라는 문자를 확인할 수 있을 것이다. `gin`은 Go의 대표적인 웹 프레임워크로 간단하게 웹 서비스를 만들 수 있게 도와준다.
 
-`gin.Default()`를 사용하면 logger와 recovery 미들웨어를 가진 기본적인 router를 사용할 수 있는데, 이를 통해 HTTP 메서드에 맞는 라우팅 경로를 만들 수 있다. 위의 코드에서는 root 경로에 HTTP 메서드 GET을 매핑시켜 서버가 시작하는 9808 포트의 root로 들어오는 요청을 라우터를 만든 것이다.
+`gin.Default()`를 사용하면 logger와 recovery 미들웨어를 가진 기본적인 router를 사용할 수 있는데, 이를 통해 HTTP 메서드에 맞는 라우팅 경로를 만들 수 있다. 위의 코드에서는 root 경로에 HTTP 메서드 GET을 매핑시켜 서버가 시작하는 9808 포트의 root로 들어오는 요청을 받는 라우터를 만든 것이다.
 
