@@ -1,7 +1,7 @@
 ---
 title: "포인터"
 date: 2022-09-02T19:56:32+09:00
-draft: true
+draft: false
 tags:
 - cpp
 categories:
