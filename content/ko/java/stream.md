@@ -1,7 +1,7 @@
 ---
 title: "스트림"
 date: 2022-09-25T16:07:27+09:00
-draft: true
+draft: false
 tags:
 - stream, java8
 categories:
