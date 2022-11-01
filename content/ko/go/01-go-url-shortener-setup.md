@@ -1,7 +1,7 @@
 ---
 title: "Go로 URL 단축기 만들기 - 1"
 date: 2022-08-08T21:02:20+09:00
-draft: false
+draft: true
 tags:
 - url-shortener
 categories:
