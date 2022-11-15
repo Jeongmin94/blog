@@ -24,6 +24,8 @@ classDiagram
     ConcreteHandler {
         + handleRequest(request)
     }
+    Handler <-- Handler
+    Handler <|-- ConcreteHandler
 {{</mermaid>}}
 
 책임 연쇄 패턴은 요청을 보내는 쪽과 요청을 처리하는 쪽을 분리하는 패턴이다. 요청을 보내는 클라이언트에서는 `Handler` 인터페이스를 사용해서 특정한 작업을 요청하게 되며, `Handler`의 구현체가 해당 요청을 처리하게 된다.
